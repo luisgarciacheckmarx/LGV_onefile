@@ -654,36 +654,22 @@
                 </execution>
               </executions>
               <configuration>
-                <executable>./ScaResolver</executable>
+                <executable>D:\\LGV\\bin\\ScaResolver-win64\\ScaResolver.exe</executable>
                 <workingDirectory>.</workingDirectory>
                 <arguments>
+				  <argument>-c</argument>	
+				  <argument>D:\\LGV\\bin\\ScaResolver-win64\\Configuration.ini</argument>
                   <argument>--project-name</argument>
-                  <argument>msp_dry_run_dev</argument>
+                  <argument>LGV_TEST_SCAR</argument>
                   <argument>--account</argument>
-                  <argument>LibertyGlobal</argument>
-                  <argument>--server_url</argument>
-                  <argument>https://eu.api-sca.checkmarx.net</argument>
+                  <argument>ps-team-emea</argument>
                   <argument>--username</argument>
-                  <argument>scanning-agent-msp</argument>
+                  <argument>luis.garciaviejo@checkmarx.com</argument>
                   <argument>--password</argument>
-                  <argument>PQKLzVi1jMaEh3FvdMpVfZ-E</argument>
+                  <argument>CxPass123!</argument>
                   <argument>--scan-path</argument>
-                  <argument>${project.basedir}</argument>
-                  <argument>--authentication-server-url</argument>
-                  <argument>https://eu.platform.checkmarx.net</argument>
-                
-                  <argument>--cxuser</argument>
-                  <argument>scanning-agent-msp</argument>
-                  <argument>--cxpassword</argument>
-                  <argument>PQKLzVi1jMaEh3FvdMpVfZ-E</argument>
-                  <argument>--project_teams</argument>
-                  <argument>/CxServer/MSP</argument>
-                  <argument>--proxies</argument>
-                  <argument>https:172.23.29.155:3128</argument>
-                  <argument>--cxprojectname</argument>
-                  <argument>/CxServer/MSP/msp_dry_run_dev</argument>                    
-                  <argument>--cxserver</argument>
-                  <argument>https://libertyglobal.checkmarx.net</argument>
+                  <argument>.</argument>
+				  <argument>--maven-parameters=-s configuration\\settings.xml\</argument>
                 </arguments>
               </configuration>
             </plugin>
