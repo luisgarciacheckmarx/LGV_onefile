@@ -669,7 +669,7 @@
                   <argument>CxPass123!</argument>
                   <argument>--scan-path</argument>
                   <argument>.</argument>
-		  <argument>--maven-parameters=-s configuration\\settings.xml</argument>
+		  <argument>--maven-parameters=-s configuration\\settings.xmlkk</argument>
 		  <argument>--log-level</argument>
 		  <argument>Verbose</argument>
 			
