@@ -675,7 +675,7 @@
                   <argument>.</argument>
 		  <argument>--maven-parameters=-s configuration\\settings.xmlkk</argument>
 		  <argument>--log-level</argument>
-		  <argument>Debug</argument>
+		  <argument>Verbose</argument>
 			
                 </arguments>
               </configuration>
