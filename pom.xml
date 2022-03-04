@@ -70,11 +70,6 @@
 	</scm>
 
 	<dependencies>
-		<dependency>
-			<groupId>lgv.lfg</groupId>
-			<artifactId>lgv-kk</artifactId>
-			<version>2.4.0.1.12</version>
-		</dependency>
 		
 		<dependency>
 			<groupId>io.micrometer</groupId>
