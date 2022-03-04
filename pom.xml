@@ -70,7 +70,11 @@
 	</scm>
 
 	<dependencies>
-
+		<dependency>
+			<groupId>lgv.lfg</groupId>
+			<artifactId>lgv-kk</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>io.micrometer</groupId>
 			<artifactId>micrometer-registry-prometheus</artifactId>
