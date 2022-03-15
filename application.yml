@@ -5,7 +5,7 @@ server:
 #    name: flow.log
 logging:
   file:
-    name: flow.log
+    name: flow2.log
   level:
     com:
        checkmarx: DEBUG
