@@ -56,15 +56,6 @@ checkmarx:
   portal-wsdl: ${checkmarx.base-url}/Portal/CxWebService.asmx?wsdl
   sdk-wsdl: ${checkmarx.base-url}/SDK/CxSDKWebService.asmx?wsdl
 
-github:
-  webhook-token: 12345
-  token: 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
-  url: https://github.com
-  api-url: https://api.github.com/repos/
-  false-positive-label: false-positive
-  block-merge: true
-  
-
 jira:
    url: https://lmgarciaviejo.atlassian.net
    username: lmgarciaviejo@gmail.com
