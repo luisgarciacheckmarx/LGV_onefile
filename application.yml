@@ -4,8 +4,8 @@ server:
 #  file:
 #    name: flow.log
 logging:
-  #file:
-  #  name: flow.log
+  file:
+    name: flow.log
   level:
     com:
        checkmarx: DEBUG
