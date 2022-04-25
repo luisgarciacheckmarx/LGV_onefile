@@ -59,7 +59,7 @@ checkmarx:
 jira:
    url: https://lmgarciaviejo.atlassian.net
    username: lmgarciaviejo@gmail.com
-   token: uqDOLvWhDE1xvSHCigEq8EAE
+   token: 0StC1HsB2CH8X61Lt5F1FA22
    project: CXSAS
    issue-type: Bug
    label-prefix: CX
